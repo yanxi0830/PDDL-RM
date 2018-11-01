@@ -23,3 +23,9 @@ grbgetkey LICENSE-CODE
 cd src
 python run.py --domain ../domains/craft/domain.pddl --problem ../domains/craft/t9.pddl --plan ../domains/craft/t9.plan
 ```
+
+### Example
+Given the task of getting gold, and the rules of Minecraft described in PDDL. 
+This package encodes the actions sequences into a finite state machine. 
+
+![rm](./results/rm.png)

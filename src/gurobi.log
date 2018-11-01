@@ -3486,3 +3486,27 @@ Solution count 1: 19
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.900000000000e+01, best bound 1.900000000000e+01, gap 0.0000%
+
+Gurobi 8.1.0 (linux64, Python) logging started Wed Oct 31 20:51:01 2018
+
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Optimize a model with 355 rows, 46 columns and 773 nonzeros
+Variable types: 0 continuous, 46 integer (46 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 14.0000000
+Presolve removed 355 rows and 46 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 12 available processors)
+
+Solution count 1: 14 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.400000000000e+01, best bound 1.400000000000e+01, gap 0.0000%
