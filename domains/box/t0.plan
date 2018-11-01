@@ -1,0 +1,3 @@
+(get-loose-key key-a)
+(get-obj key-a key-b)
+(get-obj key-b gem)

@@ -1,0 +1,17 @@
+digraph POP {
+    rankdir=LR;
+    0 [label="(get-iron)"];
+    1 [label="(get-gem)"];
+    2 [label="(init)"];
+    3 [label="(get-wood)"];
+    4 [label="(make-axe)"];
+    5 [label="(goal)"];
+    6 [label="(make-stick)"];
+    0 -> 4 [style=dotted label="(have-iron)"];
+    1 -> 5 [style=dotted label="(have-gem)"];
+    2 -> 0 [style=dotted label=""];
+    2 -> 3 [style=dotted label=""];
+    3 -> 6 [style=dotted label="(have-wood)"];
+    4 -> 1 [style=dotted label="(have-axe)"];
+    6 -> 4 [style=dotted label="(have-stick)"];
+}
